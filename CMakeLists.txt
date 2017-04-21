@@ -12,7 +12,7 @@ set(USE_DYNAMIC_SCHEDULE_FOR_INSERT TRUE CACHE BOOL
 set(STINGER_DYNOGRAPH_RECORD_GRAPH_STATS TRUE CACHE BOOL
 "Compute degree distributions and graph fragmentation for each batch")
 
-set(ENABLE_DYNOGRAPH_EDGE_COUNT TRUE CACHE BOOL
+set(ENABLE_DYNOGRAPH_EDGE_COUNT FALSE CACHE BOOL
 "Enable per-thread counters for number of edges traversed")
 
 if(${USE_STINGER_BATCH_INSERT})
