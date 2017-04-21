@@ -1,7 +1,7 @@
 cmake_minimum_required (VERSION 2.8.11)
 project (stinger-dynograph)
 set(CMAKE_MODULE_PATH "${CMAKE_MODULE_PATH};${CMAKE_CURRENT_SOURCE_DIR}/cmake")
-set(BUILD_SHARED_LIBS OFF)
+set(BUILD_SHARED_LIBS ON)
 
 set(USE_STINGER_BATCH_INSERT TRUE CACHE BOOL
 "Use the new stinger_batch functions to do insertions.")
