@@ -6,7 +6,7 @@ INSTANTIATE_TYPED_TEST_CASE_P(STINGER_DYNOGRAPH, CompareWithReferenceTest, Sting
 
 TEST(STINGER_DYNOGRAPH, SetInitialEdgesTest)
 {
-    DynoGraph::Args args = {1, "dynograph_util/data/worldcup-10K.graph.bin", 10, {}, Args::SORT_MODE::SNAPSHOT, 1.0, 1};
+    DynoGraph::Args args = {1, "dynograph_util/data/worldcup-10K.graph.bin","", 10, {}, Args::SORT_MODE::SNAPSHOT, 1.0, 1};
     DynoGraph::EdgeListDataset dataset(args);
     auto batch = dataset.getBatch(0);
 
